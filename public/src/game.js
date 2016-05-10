@@ -3,6 +3,8 @@
 
 var player, hitbox;
 
+Crafty.background('#FFFFFF');
+
 player = Crafty.e('Player');
 
 hitbox = Crafty.e('Hitbox,DOM,Color')
